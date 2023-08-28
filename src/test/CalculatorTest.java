@@ -12,14 +12,14 @@ class CalculatorTest {
 	@Test
     public void testSoma() {
         
-        int result = calculator.soma(2, 3);
+        double result = calculator.soma(2, 3);
         assertEquals(5, result);
     }
 	
 	
 	@Test
 	public void testSub() {
-		int result = calculator.sub(5,3);
+		double result = calculator.sub(5,3);
 		assertEquals(2, result);
 	}
 
