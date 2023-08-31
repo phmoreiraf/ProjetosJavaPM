@@ -22,8 +22,8 @@ class CalculadoraTest {
 
     @Test 
     public void testSeno(){
-        double seno = calcular.seno(90);
-        assertEquals(1.0, seno, 0.01);
+        double seno = calcular.seno(42);
+        assertEquals(0.6691, seno, 0.01);
     }
 
     @Test

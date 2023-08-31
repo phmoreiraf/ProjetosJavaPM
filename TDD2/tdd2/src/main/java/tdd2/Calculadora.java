@@ -45,7 +45,7 @@ public class Calculadora {
                         System.out.println("Digite um valor para calcular seu seno: ");
                         double sin = scanner.nextDouble();
                         resultado = realizar.seno(sin);
-                        System.out.printf("O seno de " + sin + " é igual a %.4f.%n", resultado);
+                        System.out.printf("O seno de " + sin + " é, aproximadamente, %.2f.%n", resultado);
                         break;
                     case 6:
                         break;
