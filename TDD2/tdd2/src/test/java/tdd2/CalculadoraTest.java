@@ -45,7 +45,7 @@ class CalculadoraTest {
 
     @Test
     public void testCosceno() {
-        double cosceno = calcular.cosceno(42);
+        double cosceno = Operacoes.cosceno(42);
         assertEquals(0.7071, Operacoes.cosceno(45), 0.01);
     }
 
