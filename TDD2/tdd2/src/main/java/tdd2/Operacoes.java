@@ -16,6 +16,10 @@ public class Operacoes {
 
     }
 
+    public double seno(double num1){
+		return Math.sin(Math.toRadians(num1));
+	}
+
     public double tangente(double num1){
         return Math.tan(Math.toRadians(num1));
     }
