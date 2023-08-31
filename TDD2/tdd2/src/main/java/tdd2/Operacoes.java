@@ -16,4 +16,8 @@ public class Operacoes {
 
     }
 
+    public double tangente(double num1){
+        return Math.toRadians(num1);
+    }
+
 }
