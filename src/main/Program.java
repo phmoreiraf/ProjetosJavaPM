@@ -15,6 +15,8 @@ public class Program {
             System.out.println("Escolha a operação:");
             System.out.println("1 - Soma");
             System.out.println("2 - Subtração");
+            System.out.println("8 - Raiz Quadrada");
+            System.out.println("9 - Potenciação");
             System.out.println("0 - Sair");
 
             int escolha = scanner.nextInt();
@@ -40,6 +42,20 @@ public class Program {
                     num2 = scanner.nextDouble();
                     resultado = realizar.sub(num1, num2);
                     System.out.println("Resultado: " + resultado);
+                    break;
+                case 3:
+                    break;
+                case 4:
+                    break;
+                case 5:
+                    break;
+                case 6:
+                    break;
+                case 7:  
+                    break;
+                case 8:
+                    break;
+                case 9:
                     break;
                 default:
                     System.out.println("Opção inválida");
