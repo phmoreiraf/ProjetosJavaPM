@@ -30,9 +30,21 @@ public class Calculadora {
                 scanner.nextLine();
                 switch (escolha) {
                     case 1:
+                    System.out.println("Selecione o primeiro número para somar:");
+                    double soma1 = scanner.nextDouble();
+                    System.out.println("Selecione o segundo número para somar:");
+                    double soma2 = scanner.nextDouble();
+                    double resultSoma = realizar.soma(soma1, soma2);
+                    System.out.println("Resultado: " + resultSoma);
 
                         break;
                     case 2:
+                    System.out.println("Selecione o primeiro número para subtrair:");
+                    double sub1 = scanner.nextDouble();
+                    System.out.println("Selecione o segundo número para subtrair:");
+                    double sub2 = scanner.nextDouble();
+                    double resultSub = realizar.sub(sub1, sub2);
+                    System.out.println("Resultado: " + resultSub);
 
                         break;
                     case 3:
