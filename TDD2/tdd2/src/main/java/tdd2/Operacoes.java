@@ -31,4 +31,7 @@ public class Operacoes {
         return Math.tan(Math.toRadians(num1));
     }
 
+
+
+
 }

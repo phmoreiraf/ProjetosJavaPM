@@ -20,7 +20,7 @@ class CalculadoraTest {
         assertEquals(100, potencia, 0.01);
     }
 
-    @Test 
+    @Test
     public void testSeno(){
         double seno = calcular.seno(42);
         assertEquals(0.6691, seno, 0.01);
@@ -41,6 +41,12 @@ class CalculadoraTest {
     public void testSub(){
         double result = calcular.sub(10, 6);
         assertEquals(6, result);
+    }
+
+    @Test
+    public void testCosceno() {
+        double cosceno = calcular.cosceno(42);
+        assertEquals(0.7071, Operacoes.cosceno(45), 0.01);
     }
 
 }
