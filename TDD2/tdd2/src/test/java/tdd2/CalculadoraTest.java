@@ -31,5 +31,17 @@ class CalculadoraTest {
         assertEquals(1.0, calcular.tangente(45), 0.01);
     }
 
+    @Test
+    public void testSoma(){
+        double result = calcular.soma(6, 1);
+        assertEquals(7, result);
+    }
+
+    @Test
+    public void testSub(){
+        double result = calcular.sub(10, 6);
+        assertEquals(6, result);
+    }
+
 }
 
