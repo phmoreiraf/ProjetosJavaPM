@@ -47,10 +47,20 @@ public class Calculadora {
    
                 case 7:
               
-                case 8:
-          
+               case 8:
+                    System.out.print("Digite o número: ");
+                    double numero = scanner.nextDouble();
+                    resultado = realizar.raiz(numero);
+                    System.out.println("Raiz Quadrada de : " + numero + "sera: " + resultado);
+                    break;
                 case 9:
-          
+                    System.out.print("Digite a base: ");
+                    double base = scanner.nextDouble();
+                    System.out.print("Digite o expoente: ");
+                    double expoente = scanner.nextDouble();
+                    resultado = realizar.potenciar(base, expoente);
+                    System.out.println("Potenciação: " + resultado);
+                    break;
                 default:
                     System.out.println("Opção inválida. Por favor, escolha uma opção válida.");
             }
