@@ -23,4 +23,16 @@ class CalculatorTest {
 		assertEquals(2, result);
 	}
 
+	    @Test
+    public void testRaiz() {
+        double raiz = calculator.raiz(81);
+        assertEquals(9, raiz, 0.01);
+    }
+
+    @Test
+    public void testPotencia() {
+        double potencia = calculator.potenciar(10,2);
+        assertEquals(100, potencia, 0.01);
+    }
+
 }
