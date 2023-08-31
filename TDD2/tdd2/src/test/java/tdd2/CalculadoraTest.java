@@ -20,6 +20,12 @@ class CalculadoraTest {
         assertEquals(100, potencia, 0.01);
     }
 
+    @Test 
+    public void testSeno(){
+        double seno = calcular.seno(90);
+        assertEquals(1.0, seno, 0.01);
+    }
+
     @Test
     public void testTangente(){
         assertEquals(1.0, calcular.tangente(45), 0.01);
