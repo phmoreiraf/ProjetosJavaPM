@@ -16,6 +16,7 @@ public class Calculadora {
         while (true) {
             System.out.println("Calculadora");
             System.out.println("Escolha a operação:");
+            System.out.println("7 - Tangente");
             System.out.println("8 - Raiz Quadrada");
             System.out.println("9 - Potenciação");
             System.out.println("0 - Sair");
@@ -31,22 +32,23 @@ public class Calculadora {
             switch (escolha) {
                 case 1:
 
-              
+
                 case 2:
 
- 
+
                 case 3:
 
-    
+
                 case 4:
 
-         
+
                 case 5:
-           
+
                 case 6:
-   
+
                 case 7:
-              
+
+
                case 8:
                     System.out.print("Digite o número: ");
                     double numero = scanner.nextDouble();

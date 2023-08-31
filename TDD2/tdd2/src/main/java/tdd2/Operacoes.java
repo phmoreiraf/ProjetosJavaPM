@@ -17,7 +17,7 @@ public class Operacoes {
     }
 
     public double tangente(double num1){
-        return Math.toRadians(num1);
+        return Math.tan(Math.toRadians(num1));
     }
 
 }

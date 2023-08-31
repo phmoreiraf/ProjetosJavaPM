@@ -22,7 +22,7 @@ class CalculadoraTest {
 
     @Test
     public void testTangente(){
-        assertEquals(0.54, calcular.tangente(31), 0.01);
+        assertEquals(1.0, calcular.tangente(45), 0.01);
     }
 
 }
