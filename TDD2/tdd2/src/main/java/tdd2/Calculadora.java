@@ -62,7 +62,7 @@ public class Calculadora {
                     case 6:
                         System.out.println("Digite um valor para calcular seu cosceno: ");
                         double cos = scanner.nextDouble();
-                        resultado = realizar.cosceno(cos);
+                        resultado = Operacoes.cosceno(cos);
                         System.out.printf("O cosceno de " + cos + " é, aproximadamente, %.2f.%n", resultado);
                         break;
                     case 7:
