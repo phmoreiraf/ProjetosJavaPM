@@ -47,12 +47,27 @@ public class Calculadora {
                     System.out.println("Resultado: " + resultSub);
 
                         break;
-                    case 3:
+              case 3:
+                    System.out.print("");
+                    System.out.print("Digite o primeiro número: ");
+                    num1 = scanner.nextDouble();
+                    System.out.print("Digite o segundo número: ");
+                    num2 = scanner.nextDouble();
 
-                        break;
-                    case 4:
+                    resultado = realizar.multiplicar(num1, num2);
+                    System.out.println("Resultado: " + resultado);
+                    break;
+                case 4:
 
-                        break;
+                    System.out.print("");
+                    System.out.print("Digite o primeiro número: ");
+                    num1 = scanner.nextDouble();
+                    System.out.print("Digite o segundo número: ");
+                    num2 = scanner.nextDouble();
+
+                    resultado = realizar.dividir(num1, num2);
+                    System.out.println("Resultado: " + resultado);
+                    break;
                     case 5:
                         System.out.println("Digite um valor para calcular seu seno: ");
                         double sin = scanner.nextDouble();
