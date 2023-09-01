@@ -11,17 +11,6 @@ public class Operacoes {
         return a - b ;
      }
 
-       public double dividir(double num1, double num2) {
-
-        return num1 / num2;
-
-    }
-
-    public double multiplicar(double num1, double num2) {
-
-        return num1 * num2;
-
-    }
 
     public double raiz(double num1) {
 
