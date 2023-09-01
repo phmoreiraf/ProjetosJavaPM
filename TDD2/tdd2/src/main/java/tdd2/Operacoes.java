@@ -31,8 +31,12 @@ public class Operacoes {
         return Math.tan(Math.toRadians(num1));
     }
 
-    public static double cosceno(double num1) {
-        return Math.cos(Math.toRadians(num1));
+    public double cosseno(double num1) {
+
+        double angulo = Math.toRadians(num1);
+
+        return Math.cos(angulo);
+
     }
 
 

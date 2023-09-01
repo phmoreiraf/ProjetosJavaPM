@@ -60,10 +60,10 @@ public class Calculadora {
                         System.out.printf("O seno de " + sin + " é, aproximadamente, %.2f.%n", resultado);
                         break;
                     case 6:
-                        System.out.println("Digite um valor para calcular seu cosceno: ");
+                        System.out.print("Digite o ângulo em graus: ");
                         double cos = scanner.nextDouble();
-                        resultado = Operacoes.cosceno(cos);
-                        System.out.printf("O cosceno de " + cos + " é, aproximadamente, %.2f.%n", resultado);
+                        resultado = realizar.cosseno(cos);
+                        System.out.println("Cosseno: " + resultado + "do angulo: " + cos + "graus.");
                         break;
                     case 7:
                         System.out.print("Digite um valor para calcular sua tangente: ");
