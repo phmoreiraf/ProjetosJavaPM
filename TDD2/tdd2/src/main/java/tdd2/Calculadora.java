@@ -12,7 +12,7 @@ public class Calculadora {
 
         int escolha;
         double resultado;
-        double num1;
+        double num1,num2;
 
             do {
                 System.out.println("Calculadora");
