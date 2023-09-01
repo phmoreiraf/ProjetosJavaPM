@@ -49,5 +49,18 @@ class CalculadoraTest {
         assertEquals(0, cosseno, 0.01);
     }
 
+    
+    @Test
+    public void testMultiplicar() {
+        double multiplicar = calcular.multiplicar(1,2);
+        assertEquals(2, multiplicar, 0.01);
+    }
+
+    @Test
+    public void testDividir() {
+        double dividir = calcular.dividir(10,2);
+        assertEquals(5, dividir, 0.01);
+    }
+
 }
 
