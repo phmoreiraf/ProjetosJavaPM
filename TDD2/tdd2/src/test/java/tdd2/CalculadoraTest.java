@@ -40,7 +40,7 @@ class CalculadoraTest {
     @Test
     public void testSub(){
         double result = calcular.sub(10, 6);
-        assertEquals(6, result);
+        assertEquals(4, result);
     }
 
     @Test
