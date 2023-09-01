@@ -40,5 +40,16 @@ public class Operacoes {
 
     }
 
+     public double dividir(double num1, double num2) {
 
+        return 0;
+
+    }
+
+    public double multiplicar(double num1, double num2) {
+
+        return 0;
+
+    }
+    
 }
