@@ -20,4 +20,17 @@ public class LivroTest {
         assertFalse(livro.isEmprestado());
     }
 
+    @Test
+    public void testEmprestarLivro() {
+        livro.emprestar();
+        assertTrue(livro.isEmprestado());
+    }
+
+    @Test
+    public void testRetornarLivro() {
+        livro.emprestar();
+        livro.retornar();
+        assertFalse(livro.isEmprestado());
+    }
+
 }
