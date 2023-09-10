@@ -27,5 +27,11 @@ public class MembroTest {
         membro.retornarLivro(livro);
         assertFalse(membro.getLivrosEmprestados().contains(livro));
     }
+    
+      @Test
+    public void testMembroPegaEmprestado() {
+        membro.pegarEmprestado(livro);
+        assertTrue(membro.getLivrosEmprestados().contains(livro));
+    }
 }
 
